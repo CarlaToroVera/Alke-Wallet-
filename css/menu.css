@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #0d0284;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);}
+
+.container {
+    max-width: 400px;
+    margin: 2px #0e000b; 
+    padding: 20px;
+    border: 1px solid #0d0284;
+}
+
+h1 {
+    text-align: center;
+}
+
+.saldo {
+    margin-bottom: 20px;
+}
+
+.saldo span {
+    font-weight: bold;
+}
+
+#saldo-cuenta {
+    float: right;
+}
+
+.acciones {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #93939f;
+    color: #040303;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+}
